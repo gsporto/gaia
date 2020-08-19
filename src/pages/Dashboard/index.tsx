@@ -1,7 +1,12 @@
-import React, { useRef } from 'react';
+import React, { useRef, useCallback } from 'react';
 import ReactPlayer from 'react-player';
 
-import { Container, NodeContainer, PlayerContainer } from './styles';
+import {
+  Container,
+  ContentContainer,
+  NodeContainer,
+  PlayerContainer,
+} from './styles';
 
 interface YoutubeTypes {
   playVideo(): void;
@@ -10,26 +15,50 @@ interface YoutubeTypes {
 const Dashboard: React.FC = () => {
   const player = useRef<ReactPlayer>(null);
 
-  function handleSeek(event: React.FormEvent<HTMLButtonElement>): void {
-    event.preventDefault();
-    player.current?.seekTo(5000, 'seconds');
-    const playerYotube = player.current?.getInternalPlayer() as YoutubeTypes;
-    playerYotube.playVideo();
-  }
+  const handleSeek = useCallback(
+    (event: React.FormEvent<HTMLButtonElement>) => {
+      event.preventDefault();
+      player.current?.seekTo(5000, 'seconds');
+      const playerYotube = player.current?.getInternalPlayer() as YoutubeTypes;
+      playerYotube.playVideo();
+    },
+    [player],
+  );
 
   return (
     <Container>
-      <PlayerContainer>
-        <ReactPlayer
-          ref={player}
-          controls
-          url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
-          width="100%"
-          height="auto"
-        />
-      </PlayerContainer>
+      <ContentContainer>
+        <PlayerContainer>
+          <ReactPlayer
+            ref={player}
+            controls
+            url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
+            width="100%"
+            height="100%"
+          />
+        </PlayerContainer>
 
-      <NodeContainer />
+        <NodeContainer>
+          <ul>
+            <li>
+              <button type="button">&nbsp;</button>
+              <p>Teste</p>
+            </li>
+            <li>
+              <button type="button">&nbsp;</button>
+              <p>Teste</p>
+            </li>
+            <li>
+              <button type="button">&nbsp;</button>
+              <p>Teste</p>
+            </li>
+            <li>
+              <button type="button">&nbsp;</button>
+              <p>Teste</p>
+            </li>
+          </ul>
+        </NodeContainer>
+      </ContentContainer>
     </Container>
   );
 };

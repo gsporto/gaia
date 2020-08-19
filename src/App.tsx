@@ -1,13 +1,13 @@
 import React from 'react';
 import GlobalStyle from './styles/global';
-import Dashboard from './pages/Dashboard';
+import Advertising from './pages/Advertising';
 
 import './App.css';
 
 const App: React.FC = () => {
   return (
     <>
-      <Dashboard />
+      <Advertising />
       <GlobalStyle />
     </>
   );

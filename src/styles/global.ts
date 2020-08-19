@@ -11,6 +11,7 @@ export default createGlobalStyle`
   body{
     background: #312E38;
     color: #FFF;
+    height: 100vh;
   }
 
   body, input , button {
@@ -25,4 +26,9 @@ export default createGlobalStyle`
   button {
     cursor: pointer;
   }
+  #root{
+    display: flex;
+    height: 100%;
+  }
+
 `;
