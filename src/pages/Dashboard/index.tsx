@@ -1,4 +1,4 @@
-import React, { useRef, useCallback } from 'react';
+import React, { useRef } from 'react';
 import ReactPlayer from 'react-player';
 
 import {
@@ -15,15 +15,15 @@ interface YoutubeTypes {
 const Dashboard: React.FC = () => {
   const player = useRef<ReactPlayer>(null);
 
-  const handleSeek = useCallback(
-    (event: React.FormEvent<HTMLButtonElement>) => {
-      event.preventDefault();
-      player.current?.seekTo(5000, 'seconds');
-      const playerYotube = player.current?.getInternalPlayer() as YoutubeTypes;
-      playerYotube.playVideo();
-    },
-    [player],
-  );
+  // const handleSeek = useCallback(
+  //   (event: React.FormEvent<HTMLButtonElement>) => {
+  //     event.preventDefault();
+  //     player.current?.seekTo(5000, 'seconds');
+  //     const playerYotube = player.current?.getInternalPlayer() as YoutubeTypes;
+  //     playerYotube.playVideo();
+  //   },
+  //   [player],
+  // );
 
   return (
     <Container>
