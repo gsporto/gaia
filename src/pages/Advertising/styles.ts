@@ -5,10 +5,28 @@ export const Container = styled.div`
   width: 100%;
   max-width: 1180px;
   margin: auto;
+`;
 
-  img {
+export const LogoContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  margin: auto;
+
+  p {
+    text-transform: uppercase;
+  }
+
+  svg {
+    align-self: center;
+
+    padding-bottom: 25px;
     width: 100px;
     height: auto;
+
+    g {
+      fill: #71c2ff;
+    }
   }
 `;
 

@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from '../../assets/logo.png';
+import { ReactComponent as ReactLogo } from '../../assets/logo.svg';
 
-import { Container, ContentContainer } from './styles';
+import { Container, ContentContainer, LogoContainer } from './styles';
 
 interface YoutubeTypes {
   playVideo(): void;
@@ -10,10 +10,10 @@ interface YoutubeTypes {
 const Dashboard: React.FC = () => {
   return (
     <Container>
-      <div>
-        <img src={logo} alt="" />
+      <LogoContainer>
+        <ReactLogo />
         <p>Minicurso de Inteligência Artificial</p>
-      </div>
+      </LogoContainer>
 
       <ContentContainer>
         <strong>Cadastre-se e receba noticias sobre nosso evento. </strong>
