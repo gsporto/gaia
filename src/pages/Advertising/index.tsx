@@ -12,7 +12,10 @@ const Dashboard: React.FC = () => {
     <Container>
       <LogoContainer>
         <ReactLogo />
-        <p>Minicurso de Inteligência Artificial</p>
+        <p>
+          <span>M</span>inicurso de <span>I</span>nteligência <span>A</span>
+          rtificial
+        </p>
       </LogoContainer>
 
       <ContentContainer>

@@ -15,6 +15,9 @@ export const LogoContainer = styled.div`
 
   p {
     text-transform: uppercase;
+    span {
+      color: #71c2ff;
+    }
   }
 
   svg {
