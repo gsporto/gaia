@@ -42,19 +42,19 @@ const Dashboard: React.FC = () => {
           <ul>
             <li>
               <button type="button">&nbsp;</button>
-              <p>Teste</p>
+              <p>Capitulo 1</p>
             </li>
             <li>
               <button type="button">&nbsp;</button>
-              <p>Teste</p>
+              <p>Capitulo 3</p>
             </li>
             <li>
               <button type="button">&nbsp;</button>
-              <p>Teste</p>
+              <p>Capitulo 3</p>
             </li>
             <li>
               <button type="button">&nbsp;</button>
-              <p>Teste</p>
+              <p>Capitulo 4</p>
             </li>
           </ul>
         </NodeContainer>

@@ -43,6 +43,9 @@ export const NodeContainer = styled.aside`
   ul {
     position: relative;
     margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
     li {
       display: flex;
@@ -58,7 +61,7 @@ export const NodeContainer = styled.aside`
           content: '';
           height: 100%;
           position: absolute;
-          border: 1px solid #7383d4;
+          border: 1px solid #71c2ff;
           bottom: 50%;
           left: 4px;
         }
@@ -69,7 +72,7 @@ export const NodeContainer = styled.aside`
           content: '';
           height: 100%;
           position: absolute;
-          border: 1px solid #7383d4;
+          border: 1px solid #71c2ff;
           top: 50%;
           left: 4px;
         }
@@ -96,7 +99,7 @@ export const NodeContainer = styled.aside`
           background: rgb(32, 32, 36);
           border-width: 2px;
           border-style: solid;
-          border-color: #7383d4;
+          border-color: #71c2ff;
           border-radius: 50%;
         }
 
