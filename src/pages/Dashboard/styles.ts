@@ -52,6 +52,8 @@ export const NodeContainer = styled.aside`
       list-style: none;
       position: relative;
 
+      height: 100%;
+
       & + li {
         margin-top: 20px;
       }
@@ -112,6 +114,10 @@ export const NodeContainer = styled.aside`
           border-radius: 50%;
           background: rgb(225, 225, 230);
         }
+      }
+
+      p {
+        margin: auto;
       }
     }
   }
