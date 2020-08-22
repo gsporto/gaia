@@ -16,7 +16,7 @@ export const LogoContainer = styled.div`
   p {
     text-transform: uppercase;
     span {
-      color: #71c2ff;
+      color: #2962ff;
     }
   }
 
@@ -28,7 +28,7 @@ export const LogoContainer = styled.div`
     height: auto;
 
     g {
-      fill: #71c2ff;
+      fill: #2962ff;
     }
   }
 `;
@@ -54,7 +54,7 @@ export const ContentContainer = styled.div`
     font-weight: bold;
     height: 50px;
     text-transform: uppercase;
-    background: #71c2ff;
+    background: #2962ff;
     border-radius: 5px;
     border-width: 0px;
     transition: background 0.2s ease 0s, color 0.2s ease 0s;

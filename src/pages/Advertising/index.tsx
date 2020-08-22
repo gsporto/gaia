@@ -1,5 +1,6 @@
 import React from 'react';
 import { ReactComponent as ReactLogo } from '../../assets/logo.svg';
+import { ReactComponent as BottomText } from '../../assets/BottomText.svg';
 
 import { Container, ContentContainer, LogoContainer } from './styles';
 
@@ -12,10 +13,7 @@ const Dashboard: React.FC = () => {
     <Container>
       <LogoContainer>
         <ReactLogo />
-        <p>
-          <span>M</span>inicurso de <span>I</span>nteligência <span>A</span>
-          rtificial
-        </p>
+        <BottomText style={{ width: '200px' }} />
       </LogoContainer>
 
       <ContentContainer>
