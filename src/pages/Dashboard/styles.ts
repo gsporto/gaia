@@ -88,7 +88,7 @@ export const NodeContainer = styled.aside`
           content: '';
           height: 100%;
           position: absolute;
-          border: 1px solid #71c2ff;
+          border: 1px solid #2962ff;
           bottom: 50%;
           left: 4px;
         }
@@ -99,7 +99,7 @@ export const NodeContainer = styled.aside`
           content: '';
           height: 100%;
           position: absolute;
-          border: 1px solid #71c2ff;
+          border: 1px solid #2962ff;
           top: 50%;
           left: 4px;
         }
@@ -126,7 +126,7 @@ export const NodeContainer = styled.aside`
           background: #312e38;
           border-width: 2px;
           border-style: solid;
-          border-color: #71c2ff;
+          border-color: #2962ff;
           border-radius: 50%;
         }
 
@@ -190,7 +190,7 @@ export const DescriptionContainer = styled.div`
           border-bottom: 2px solid currentColor;
           border-right: 2px solid currentColor;
           transform: rotate(-45deg);
-          transition: all 0.5s ease-in;
+          transition: all 0.25s ease-in;
         }
 
         &[aria-expanded='true']::before,
