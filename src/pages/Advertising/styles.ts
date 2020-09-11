@@ -43,8 +43,8 @@ export const ContentContainer = styled.div`
   input {
     height: 50px;
     width: 350px;
-    background: rgb(18, 18, 20);
-    border-radius: 5px;
+    background: #312e38;
+    border-radius: 5px 0 0 5px;
     border-width: 0px;
     padding-left: 10px;
   }
@@ -55,7 +55,7 @@ export const ContentContainer = styled.div`
     height: 50px;
     text-transform: uppercase;
     background: #2962ff;
-    border-radius: 5px;
+    border-radius: 0 5px 5px 0;
     border-width: 0px;
     transition: background 0.2s ease 0s, color 0.2s ease 0s;
     width: 220px;
