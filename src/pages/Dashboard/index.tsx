@@ -61,7 +61,9 @@ const Dashboard: React.FC = () => {
             <ul>
               {Chapters.map(chapter => (
                 <li>
-                  <button type="button">&nbsp;</button>
+                  <button type="button">
+                    <circle />
+                  </button>
                   <p>{chapter.title}</p>
                 </li>
               ))}

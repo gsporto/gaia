@@ -106,20 +106,19 @@ export const NodeContainer = styled.aside`
       }
 
       button {
-        z-index: 2;
+        width: 0;
+        height: 0;
         position: relative;
-        border-radius: 50%;
-        height: 10px;
-        width: 10px;
+
+        z-index: 2;
+
         margin-right: 30px;
         border-width: 0;
         align-self: center;
 
-        &::before {
-          content: '';
-          position: absolute;
-          top: 50%;
-          left: 50%;
+        circle {
+          display: flex;
+
           width: 20px;
           height: 20px;
           transform: translate(-50%, -50%);
@@ -128,16 +127,17 @@ export const NodeContainer = styled.aside`
           border-style: solid;
           border-color: #2962ff;
           border-radius: 50%;
-        }
 
-        &::after {
-          content: '';
-          position: absolute;
-          left: 0px;
-          width: 100%;
-          height: 100%;
-          border-radius: 50%;
-          background: rgb(225, 225, 230);
+          margin-left: 5px;
+          margin-top: 3px;
+          &::after {
+            content: '';
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: rgb(225, 225, 230);
+            margin: auto;
+          }
         }
       }
 
