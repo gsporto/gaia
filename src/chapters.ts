@@ -8,7 +8,12 @@ const Chapthers: IChapther[] = [
   {
     title: 'Introdução',
     path: 'https://youtu.be/oDgaV5uxVT4',
-    content: '<p>BlaBla…</p>',
+    content: `<p>Com os novos caminhos que a tecnologia vem abrindo se criou uma nova necessidade: explorar e desenvolver novas inteligências artificiais. São inúmeras as possibilidades que foram abertas neste ramo, e muitas delas com objetivos dignos, como aquelas que melhoram as condições de hospitais, trânsito e segurança. </p>
+    <p>Por isso, criamos este minicurso buscando mostrar o potencial da Inteligência Artificial, sua importância e também demonstrar na prática algumas aplicações. Tudo isso com o objetivo de despertar o interesse de mais pessoas na área com a esperança de que estes venham a trabalhar nela e colaborar para o seu aprimoramento. </p>
+    <p>É importante ressaltar que o conteúdo apresentado neste minicurso vai ser bem breve, e uma vez que a área abordada é bem ampla vamos lhe mostrar apenas o principal, e caso você tenha interesse lembre que o Google é seu amigo, e tem muito conteúdo bom por lá.</p>
+    <p>Quanto ao minicurso, separamos o conteúdo em 6 capítulos. Vamos abordar a história da IA, conceitos importantes, aplicações, sua lógica de funcionamento e vamos também demonstrar um código na prática bem divertido que você mesmo vai poder executar. E ao final, temos também um conteúdo apresentando possíveis cargos e ganhos na área. </p>
+    <p>Dito isso, sem mais delongas, é um prazer tê lo conosco, seja bem vindo ao nosso minicurso de IA!</p>
+    `,
   },
   {
     title: 'Breve História da IA',
