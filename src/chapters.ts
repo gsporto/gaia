@@ -7,14 +7,12 @@ interface IChapther {
 const Chapthers: IChapther[] = [
   {
     title: 'Introdução',
-    path:
-      'https://r4---sn-bg0eznll.c.drive.google.com/videoplayback?expire=1600478037&ei=FSNlX-SRJIbihga38q-oBw&ip=191.30.108.202&cp=QVRFUkVfV1BRSFhPOnZMZmlPZ1dOcFRtT1NHUXVlUjhMSnB6ZHJKUmtVUmxqZ2lCcExydmdNRW4&id=5f6379f794813ab9&itag=18&source=webdrive&requiressl=yes&mh=Go&mm=32&mn=sn-bg0eznll&ms=su&mv=m&mvi=4&pl=19&ttl=transient&susc=dr&driveid=1HF5hbubkwFnmXlpMxfoFiWriOqPmuqy0&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=83.684&lmt=1600453831001890&mt=1600463480&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRAIgIJy_Au9lw5jOFs3fSYAa6kJG0xdZbciS68yXRMFVRSYCIDV4y-FCsvtYugVxUgzhxkN3uwTEAtDuZS3T4qaGAhSH&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRgIhALqrTOe4_atNMVnEJdlO-L1kHv_rMvnwrQliS-VshIerAiEAxDbNaXcCqq6M0h5Vc7t_k64VRX-4c1MrwUkI0PBlUtM=&cpn=qjVQioGTb7b6wy9n&c=WEB_EMBEDDED_PLAYER&cver=20200918',
+    path: 'https://youtu.be/oDgaV5uxVT4',
     content: '<p>BlaBla…</p>',
   },
   {
     title: 'Breve História da IA',
-    path:
-      'https://r4---sn-bg07dnsy.c.drive.google.com/videoplayback?expire=1600478113&ei=YSNlX8X-MImkhgbEkamIAQ&ip=191.30.108.202&cp=QVRFUkVfV1FPRFhPOnZMZmlQZVNOcFRtT1NHUnNhUjhMSnB6ZHNITmtVUmxqZ2lDbkhydmdNRW4&id=995ede836c3a8d0f&itag=37&source=webdrive&requiressl=yes&mh=vp&mm=32&mn=sn-bg07dnsy&ms=su&mv=m&mvi=4&pl=19&ttl=transient&susc=dr&driveid=16_U84i_cD17DMC3LoYgaSwLLBmCRKejr&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=298.144&lmt=1600454793105725&mt=1600463660&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRQIgXd4fewXQxOXOTR-3umy7wZ4zz3j9vPse5icLnVbwGIgCIQCIhPoCQxd5fkCjCE4bFITP2KQYxxZfqw_sv4JfcnVhZQ==&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRQIhAIqPguV2KGReiAls_OnK-z9VEZj-JMQIF7_ae730TFUHAiByk0oa0oTA8d5Lma_wgF2uQRO1aLKp8Ta8d-yzOQt6DA==&cpn=Uz4kE5wuks7X2ikz&c=WEB_EMBEDDED_PLAYER&cver=20200918',
+    path: 'https://youtu.be/H196EITKJZo',
     content: `
     <p>Podemos dizer que a inteligência artificial iniciou em 1956, quando um grupo de matemáticos, cientistas e linguistas dos Estados Unidos criaram um projeto de pesquisa. Esse projeto tinha a visão de desenvolver um sistema que aprende sozinho a fazer tarefas que requerem inteligência humana. </p>
     <p>A primeira inteligência artificial criada nessa época, foi capaz de provar teoremas matemáticos. Logo após, também foi criada uma linguagem de programação que servia para processar estruturas simbólicas.</p>
@@ -28,8 +26,7 @@ const Chapthers: IChapther[] = [
   },
   {
     title: 'O’que é a IA - Definição dos Dias Atuais',
-    path:
-      'https://r4---sn-bg0ezn7e.c.drive.google.com/videoplayback?expire=1600478403&ei=gyRlX6rBFZmqhwaV6Z9Y&ip=191.30.108.202&cp=QVRFUkVfV1RORFhPOnZMZmlTZFNOcFRtT1NHVXJhUjhMSnB6ZHZHTmtVUmxqZ2lGbUhydmdNRW4&id=9e832590ebbce238&itag=37&source=webdrive&requiressl=yes&mh=vt&mm=32&mn=sn-bg0ezn7e&ms=su&mv=m&mvi=4&pl=19&ttl=transient&susc=dr&driveid=1AM-TicKdMHKKz5BGAivApvFRD4RzB325&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=165.883&lmt=1600455790033839&mt=1600463901&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRgIhAIQxAmX2791PqMZtZiPPLpuEr_0UQ0Qr_IBEsBc6ZsgQAiEAxK_JXjy514K5kPbwr4kxun1HC0xPBxMlkc4bYTOUJqg=&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRgIhAMelH3Yegh8fEpxics4OuHof8lZH0uLFOrL7OXv0ewyMAiEAoazkTxuM5D6qa35YOhePy1HRM0QuFt-dj2Wl66mhgKE=&cpn=9dd0tdq3oeW7N25i&c=WEB_EMBEDDED_PLAYER&cver=20200918',
+    path: 'https://youtu.be/wLC-BmqHmvU',
     content: `
     <p>“Uma IA é um sistema que tem a habilidade de analisar e interpretar o ambiente em que se encontra e usar os dados obtidos para conseguir maximizar suas chances de obter sucesso em seus objetivos.”</p>
     <p>Isto é, um programa que preenche planilhas pra você não é uma IA. Uma IA consegue se adaptar ao seu ambiente e mudanças nele, sempre visando completar seu objetivo.</p>
@@ -41,8 +38,7 @@ const Chapthers: IChapther[] = [
   },
   {
     title: 'Onde a IA está Presente - Aplicações',
-    path:
-      'https://r3---sn-bg0eznll.c.drive.google.com/videoplayback?expire=1600478339&ei=QyRlX769ELOphwbMr5aIDQ&ip=191.30.108.202&cp=QVRFUkVfV1NRSlhPOnZMZmlSZ1lOcFRtT1NHVHVnUjhMSnB6ZHVKVGtVUmxqZ2lFcE5ydmdNRW4&id=a8ce39961eb11376&itag=37&source=webdrive&requiressl=yes&mh=ib&mm=32&mn=sn-bg0eznll&ms=su&mv=m&mvi=3&pl=19&ttl=transient&susc=dr&driveid=1_l7ml1CP8VOVDFrr_aYyBUkRrH10wfhN&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=207.214&lmt=1600457730023990&mt=1600463845&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRQIgWSiUC6XRKljDeSVWc8rNwZazzxb1bs-bLJUc4UMIHS4CIQCD_t8g2uwEW_hZrHtARnc8NzsZmaGE6IYrryZxRSJ2Ig==&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRAIgJRk9ngwhd7WfLQ6gsqyI1i6a15PiG6R1r5hslIWoetYCIGTc5Gmy0jlb5X0D_GEP0uxVPGe-oCiABn7S06vKXwHh&cpn=iz0TlkMhB-hl5n4e&c=WEB_EMBEDDED_PLAYER&cver=20200918',
+    path: 'https://youtu.be/IPjKnyQ7q1E',
     content: `
     <p>As aplicações de inteligência artificial, como automação, controle de qualidade e segurança cibernética estão entre os usos mais populares da tecnologia. Dentre várias aplicações dessa tecnologia se incluem:</p>
     <li>Automação da TI</li>
@@ -63,8 +59,7 @@ const Chapthers: IChapther[] = [
   },
   {
     title: 'Funcionamento Básico do Código',
-    path:
-      'https://r2---sn-bg07dn6d.c.drive.google.com/videoplayback?expire=1600480369&ei=MSxlX7iaA7PdzLUPmdufuAQ&ip=191.30.108.202&cp=QVRFUkVfT1NUSlhPOnZMZ2FSallOcFRtT1RZVHhnUjhMSnBhdnVNVGtVUmxqaGFFc05ydmdNRW8&id=d9961577e2f5e92d&itag=37&source=webdrive&requiressl=yes&mh=sd&mm=32&mn=sn-bg07dn6d&ms=su&mv=m&mvi=2&pl=19&ttl=transient&susc=dr&driveid=1HtQudx2p2N81CIftHdvy5P13YTOS3cyT&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=260.109&lmt=1600459966888666&mt=1600465879&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRgIhAMmHbvBZEN4cxKiMhVLCpqLvHH5Y8gHDJ3euJf9KzK04AiEApATmiJTFJOu6c6uzAhcWWxxKI0fiRWcaIdo4VEtb8XQ=&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRAIgeW08uu07oMiSSbfmEAYhv15U6EN2sG31uLYYQhGX4eECICb52b2grfFfimYe9XyQI3sJJZ-BNKlCBPsL2xDYINtK&cpn=ZwAee2UQ9EoA1td3&c=WEB_EMBEDDED_PLAYER&cver=20200918',
+    path: 'https://youtu.be/VbKpiciD21Q',
     content: `
     <p>Nessa parte abordaremos como a IA funciona, podemos dizer que é difícil uma definição quanto a seu funcionamento, mas podemos notar como a qual trabalha com diversos processos, que envolvem grande quantia de informações das quais não se pode perceber com experiências diárias. Ela é feita por códigos e programação que funcionam por meio de funções matemáticas. De maneira geral, a ideia é ter uma função na qual, quando se insere um determinado valor, outro valor surge. O importante é entender que esses valores não são aleatórios, mas têm um significado e, portanto, uma função. De forma análoga, os códigos de computador também não são aleatórios, sendo eles cada um é responsável por um papel no sistema.</p>
     <p>Na IA se trabalha com uma grande quantia de dados, dados com os quais se combinam e junto com algoritmos inteligentes, proporciona ao sistema a partir das informações, criar padrões, sendo forma de aprendizagem, desde que  sempre seja renovado.</p>
@@ -80,8 +75,7 @@ const Chapthers: IChapther[] = [
   },
   {
     title: 'Campos de Aplicação, Possíveis Cargos e Ganhos',
-    path:
-      'https://r1---sn-bg0ezn7e.c.drive.google.com/videoplayback?expire=1600480402&ei=UixlX_3hBtHr8wSVvqiYBA&ip=191.30.108.202&cp=QVRFUkVfT1ROQ1hPOnZMZ2FTZFJOcFRtT1RZVXJ6UjhMSnBhdnZHTWtVUmxqaGFGbUdydmdNRW8&id=59211249e90b5bfe&itag=37&source=webdrive&requiressl=yes&mh=LI&mm=32&mn=sn-bg0ezn7e&ms=su&mv=m&mvi=1&pl=19&ttl=transient&susc=dr&driveid=1XTo5tfN2p7eWn9cyJUu0TFU5hWlgma83&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=203.267&lmt=1600464020706059&mt=1600465879&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRQIgL11wU8nkLhiVCiUYRdJY9YWm1vquD-sL9qj1SkjtLuYCIQD5nSLWMqMGDFvLDRRnnX3iOlXw7uLN5Y03CUgABsIKnA==&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRgIhAPIjpI5KlRaPfUxORx5mQahubtdzpJiwdBlFX3xZFYJLAiEA_WcO_Fzj_sZF6WzAbtx5q_i2JqpV6DfcgSf8szrPez8=&cpn=G-31ybd7AF-Y4cz5&c=WEB_EMBEDDED_PLAYER&cver=20200918',
+    path: 'https://youtu.be/6ZUkIgmQSAM',
     content: `<p> </p>
     <p> </p>
     <p> </p>`,
