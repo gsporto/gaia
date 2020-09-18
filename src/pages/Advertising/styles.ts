@@ -35,6 +35,8 @@ export const LogoContainer = styled.div`
 
 export const ContentContainer = styled.div`
   margin: auto;
+  display: flex;
+  flex-direction: column;
 
   strong {
     font-size: 24px;
@@ -44,20 +46,49 @@ export const ContentContainer = styled.div`
     height: 50px;
     width: 350px;
     background: #312e38;
+    color: #fff;
     border-radius: 5px 0 0 5px;
     border-width: 0px;
     padding-left: 10px;
   }
-  button {
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    font-weight: bold;
-    height: 50px;
-    text-transform: uppercase;
-    background: #2962ff;
-    border-radius: 0 5px 5px 0;
-    border-width: 0px;
-    transition: background 0.2s ease 0s, color 0.2s ease 0s;
-    width: 220px;
+  div {
+    button {
+      color: rgb(255, 255, 255);
+      font-size: 16px;
+      font-weight: bold;
+      height: 50px;
+      text-transform: uppercase;
+      background: #2962ff;
+      border-radius: 0 5px 5px 0;
+      border-width: 0px;
+      transition: background 0.2s ease 0s, color 0.2s ease 0s;
+      width: 220px;
+    }
+  }
+  a {
+    margin: 10px auto;
+    text-decoration: none;
+
+    button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      color: rgb(255, 255, 255);
+      font-size: 16px;
+      font-weight: bold;
+      height: 50px;
+      text-transform: uppercase;
+      background: #2962ff;
+      border-radius: 5px;
+      border-width: 0px;
+      transition: background 0.2s ease 0s, color 0.2s ease 0s;
+      width: 220px;
+      text-decoration: 0;
+
+      svg {
+        margin-right: 5px;
+      }
+    }
   }
 `;

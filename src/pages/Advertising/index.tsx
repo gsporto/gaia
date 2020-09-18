@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { FiBook } from 'react-icons/fi';
 import { ReactComponent as ReactLogo } from '../../assets/logo.svg';
 import { ReactComponent as BottomText } from '../../assets/BottomText.svg';
 
@@ -22,6 +24,11 @@ const Dashboard: React.FC = () => {
           <input type="text" placeholder="Seu Email" />
           <button type="button">Cadastrar-se</button>
         </div>
+        <Link to="/dashboard">
+          <button type="button">
+            <FiBook /> Aulas
+          </button>
+        </Link>
       </ContentContainer>
     </Container>
   );
