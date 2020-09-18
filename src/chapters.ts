@@ -1,12 +1,18 @@
 interface IChapther {
   title: string;
+  path: string;
   content: string;
 }
 
 const Chapthers: IChapther[] = [
-  { title: 'Introdução', content: '<p>BlaBla…</p>' },
+  {
+    title: 'Introdução',
+    path: 'videos/introducao.mp4',
+    content: '<p>BlaBla…</p>',
+  },
   {
     title: 'Breve História da IA',
+    path: 'videos/capitulo01.mp4',
     content: `
     <p>Podemos dizer que a inteligência artificial iniciou em 1956, quando um grupo de matemáticos, cientistas e linguistas dos Estados Unidos criaram um projeto de pesquisa. Esse projeto tinha a visão de desenvolver um sistema que aprende sozinho a fazer tarefas que requerem inteligência humana. </p>
     <p>A primeira inteligência artificial criada nessa época, foi capaz de provar teoremas matemáticos. Logo após, também foi criada uma linguagem de programação que servia para processar estruturas simbólicas.</p>
@@ -20,6 +26,7 @@ const Chapthers: IChapther[] = [
   },
   {
     title: 'O’que é a IA - Definição dos Dias Atuais',
+    path: 'videos/capitulo02.mp4',
     content: `
     <p>“Uma IA é um sistema que tem a habilidade de analisar e interpretar o ambiente em que se encontra e usar os dados obtidos para conseguir maximizar suas chances de obter sucesso em seus objetivos.”</p>
     <p>Isto é, um programa que preenche planilhas pra você não é uma IA. Uma IA consegue se adaptar ao seu ambiente e mudanças nele, sempre visando completar seu objetivo.</p>
@@ -31,6 +38,7 @@ const Chapthers: IChapther[] = [
   },
   {
     title: 'Onde a IA está Presente - Aplicações',
+    path: 'videos/capitulo03.mp4',
     content: `
     <p>As aplicações de inteligência artificial, como automação, controle de qualidade e segurança cibernética estão entre os usos mais populares da tecnologia. Dentre várias aplicações dessa tecnologia se incluem:</p>
     <li>Automação da TI</li>
@@ -51,6 +59,7 @@ const Chapthers: IChapther[] = [
   },
   {
     title: 'Funcionamento Básico do Código',
+    path: 'videos/capitulo04.mp4',
     content: `
     <p>Nessa parte abordaremos como a IA funciona, podemos dizer que é difícil uma definição quanto a seu funcionamento, mas podemos notar como a qual trabalha com diversos processos, que envolvem grande quantia de informações das quais não se pode perceber com experiências diárias. Ela é feita por códigos e programação que funcionam por meio de funções matemáticas. De maneira geral, a ideia é ter uma função na qual, quando se insere um determinado valor, outro valor surge. O importante é entender que esses valores não são aleatórios, mas têm um significado e, portanto, uma função. De forma análoga, os códigos de computador também não são aleatórios, sendo eles cada um é responsável por um papel no sistema.</p>
     <p>Na IA se trabalha com uma grande quantia de dados, dados com os quais se combinam e junto com algoritmos inteligentes, proporciona ao sistema a partir das informações, criar padrões, sendo forma de aprendizagem, desde que  sempre seja renovado.</p>
@@ -59,12 +68,14 @@ const Chapthers: IChapther[] = [
   },
   {
     title: 'Exemplo de um Código - Reconhecimento Facial',
+    path: 'videos/capitulo05.mp4',
     content: `<p> </p>
     <p> </p>
     <p> </p>`,
   },
   {
     title: 'Campos de Aplicação, Possíveis Cargos e Ganhos',
+    path: 'videos/capitulo06.mp4',
     content: `<p> </p>
     <p> </p>
     <p> </p>`,

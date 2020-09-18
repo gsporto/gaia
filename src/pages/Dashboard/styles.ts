@@ -13,11 +13,23 @@ export const Header = styled.header`
   z-index: 10;
   background: #212121;
 
-  svg:first-child {
-    margin-right: 10px;
+  > button {
+    align-self: center;
+    background: transparent;
+    border: 0;
+    svg {
+      color: white;
+    }
+  }
 
-    g {
-      fill: #2962ff;
+  div {
+    margin: auto;
+    svg:first-child {
+      margin-right: 10px;
+
+      g {
+        fill: #2962ff;
+      }
     }
   }
 `;

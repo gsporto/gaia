@@ -1,5 +1,8 @@
-import React, { useRef } from 'react';
+import React, { useCallback, useRef, useState } from 'react';
 import ReactPlayer from 'react-player';
+import { useHistory } from 'react-router-dom';
+import { FiArrowLeft } from 'react-icons/fi';
+
 import {
   Accordion,
   AccordionItem,
@@ -28,22 +31,34 @@ interface YoutubeTypes {
 
 const Dashboard: React.FC = () => {
   const player = useRef<ReactPlayer>(null);
+  const [videoFilePath, setVideoFileURL] = useState<string>(
+    'videos/introducao.mp4',
+  );
 
-  // const handleSeek = useCallback(
-  //   (event: React.FormEvent<HTMLButtonElement>) => {
-  //     event.preventDefault();
-  //     player.current?.seekTo(5000, 'seconds');
-  //     const playerYotube = player.current?.getInternalPlayer() as YoutubeTypes;
-  //     playerYotube.playVideo();
-  //   },
-  //   [player],
-  // );
+  const history = useHistory();
+
+  const handleGoback = useCallback(
+    (event: React.FormEvent<HTMLButtonElement>) => {
+      event.preventDefault();
+      history.goBack();
+    },
+    [history],
+  );
+
+  const handleSeek = useCallback((link: string) => {
+    setVideoFileURL(link);
+  }, []);
 
   return (
     <>
       <Header>
-        <ReactLogo height="" style={{ width: '50px' }} />
-        <BottomText style={{ width: '100px' }} />
+        <button type="button" onClick={handleGoback}>
+          <FiArrowLeft size={24} />
+        </button>
+        <div>
+          <ReactLogo height="" style={{ width: '50px' }} />
+          <BottomText style={{ width: '100px' }} />
+        </div>
       </Header>
       <Container>
         <ContentContainer>
@@ -51,7 +66,7 @@ const Dashboard: React.FC = () => {
             <ReactPlayer
               ref={player}
               controls
-              url="https://www.youtube.com/watch?v=ysz5S6PUM-U"
+              url={videoFilePath}
               width="100%"
               height="100%"
             />
@@ -61,7 +76,10 @@ const Dashboard: React.FC = () => {
             <ul>
               {Chapters.map(chapter => (
                 <li>
-                  <button type="button">
+                  <button
+                    type="button"
+                    onClick={() => handleSeek(chapter.path)}
+                  >
                     <circle />
                   </button>
                   <p>{chapter.title}</p>
