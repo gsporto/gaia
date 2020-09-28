@@ -12,6 +12,7 @@ export default createGlobalStyle`
     background: #000;
     color: #FFF;
     height: 100vh;
+    width: 100vw;
   }
 
   body, input , button {

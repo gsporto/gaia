@@ -7,7 +7,7 @@ interface IChapther {
 const Chapthers: IChapther[] = [
   {
     title: 'Introdução',
-    path: 'https://youtu.be/oDgaV5uxVT4',
+    path: 'https://youtu.be/r2ynXosVTUU',
     content: `<p>Com os novos caminhos que a tecnologia vem abrindo se criou uma nova necessidade: explorar e desenvolver novas inteligências artificiais. São inúmeras as possibilidades que foram abertas neste ramo, e muitas delas com objetivos dignos, como aquelas que melhoram as condições de hospitais, trânsito e segurança. </p>
     <p>Por isso, criamos este minicurso buscando mostrar o potencial da Inteligência Artificial, sua importância e também demonstrar na prática algumas aplicações. Tudo isso com o objetivo de despertar o interesse de mais pessoas na área com a esperança de que estes venham a trabalhar nela e colaborar para o seu aprimoramento. </p>
     <p>É importante ressaltar que o conteúdo apresentado neste minicurso vai ser bem breve, e uma vez que a área abordada é bem ampla vamos lhe mostrar apenas o principal, e caso você tenha interesse lembre que o Google é seu amigo, e tem muito conteúdo bom por lá.</p>
@@ -17,7 +17,7 @@ const Chapthers: IChapther[] = [
   },
   {
     title: 'Breve História da IA',
-    path: 'https://youtu.be/H196EITKJZo',
+    path: 'https://youtu.be/Z23_2-Fw0dM',
     content: `
     <p>Podemos dizer que a inteligência artificial iniciou em 1956, quando um grupo de matemáticos, cientistas e linguistas dos Estados Unidos criaram um projeto de pesquisa. Esse projeto tinha a visão de desenvolver um sistema que aprende sozinho a fazer tarefas que requerem inteligência humana. </p>
     <p>A primeira inteligência artificial criada nessa época, foi capaz de provar teoremas matemáticos. Logo após, também foi criada uma linguagem de programação que servia para processar estruturas simbólicas.</p>
@@ -31,7 +31,7 @@ const Chapthers: IChapther[] = [
   },
   {
     title: 'O’que é a IA - Definição dos Dias Atuais',
-    path: 'https://youtu.be/wLC-BmqHmvU',
+    path: 'https://youtu.be/t6T2nqIWymA',
     content: `
     <p>“Uma IA é um sistema que tem a habilidade de analisar e interpretar o ambiente em que se encontra e usar os dados obtidos para conseguir maximizar suas chances de obter sucesso em seus objetivos.”</p>
     <p>Isto é, um programa que preenche planilhas pra você não é uma IA. Uma IA consegue se adaptar ao seu ambiente e mudanças nele, sempre visando completar seu objetivo.</p>
@@ -43,7 +43,7 @@ const Chapthers: IChapther[] = [
   },
   {
     title: 'Onde a IA está Presente - Aplicações',
-    path: 'https://youtu.be/IPjKnyQ7q1E',
+    path: 'https://youtu.be/zigLkJQ4DzY',
     content: `
     <p>As aplicações de inteligência artificial, como automação, controle de qualidade e segurança cibernética estão entre os usos mais populares da tecnologia. Dentre várias aplicações dessa tecnologia se incluem:</p>
     <li>Automação da TI</li>
@@ -64,7 +64,7 @@ const Chapthers: IChapther[] = [
   },
   {
     title: 'Funcionamento Básico do Código',
-    path: 'https://youtu.be/VbKpiciD21Q',
+    path: 'https://youtu.be/ckHwNVzorrQ',
     content: `
     <p>Nessa parte abordaremos como a IA funciona, podemos dizer que é difícil uma definição quanto a seu funcionamento, mas podemos notar como a qual trabalha com diversos processos, que envolvem grande quantia de informações das quais não se pode perceber com experiências diárias. Ela é feita por códigos e programação que funcionam por meio de funções matemáticas. De maneira geral, a ideia é ter uma função na qual, quando se insere um determinado valor, outro valor surge. O importante é entender que esses valores não são aleatórios, mas têm um significado e, portanto, uma função. De forma análoga, os códigos de computador também não são aleatórios, sendo eles cada um é responsável por um papel no sistema.</p>
     <p>Na IA se trabalha com uma grande quantia de dados, dados com os quais se combinam e junto com algoritmos inteligentes, proporciona ao sistema a partir das informações, criar padrões, sendo forma de aprendizagem, desde que  sempre seja renovado.</p>
@@ -73,14 +73,14 @@ const Chapthers: IChapther[] = [
   },
   {
     title: 'Exemplo de um Código - Reconhecimento Facial',
-    path: '',
+    path: 'https://youtu.be/myF-JP7VEC4',
     content: `<p> </p>
     <p> </p>
     <p> </p>`,
   },
   {
     title: 'Campos de Aplicação, Possíveis Cargos e Ganhos',
-    path: 'https://youtu.be/6ZUkIgmQSAM',
+    path: 'https://youtu.be/GEfaIVc_92k',
     content: `<p> </p>
     <p> </p>
     <p> </p>`,

@@ -5,6 +5,10 @@ export const Container = styled.div`
   width: 100%;
   max-width: 1180px;
   margin: auto;
+  @media (max-width: 991.98px) {
+    flex-direction: column;
+    margin-top: 50%;
+  }
 `;
 
 export const LogoContainer = styled.div`
@@ -38,20 +42,31 @@ export const ContentContainer = styled.div`
   display: flex;
   flex-direction: column;
 
-  strong {
-    font-size: 24px;
+  @media (max-width: 991.98px) {
+    width: 100%;
+    padding: 10px;
   }
 
-  input {
-    height: 50px;
-    width: 350px;
-    background: #312e38;
-    color: #fff;
-    border-radius: 5px 0 0 5px;
-    border-width: 0px;
-    padding-left: 10px;
+  strong {
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 10px;
   }
+
   div {
+    display: flex;
+
+    input {
+      flex: 1;
+      height: 50px;
+
+      background: #312e38;
+      color: #fff;
+      border-radius: 5px 0 0 5px;
+      border-width: 0px;
+      padding-left: 10px;
+    }
+
     button {
       color: rgb(255, 255, 255);
       font-size: 16px;

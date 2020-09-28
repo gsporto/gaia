@@ -8,7 +8,7 @@ const Routes: React.FC = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" exact component={Advertising} />
+        <Route path={['/', 'rss']} exact component={Advertising} />
         <Route path="/dashboard" component={Dashboard} />
       </Switch>
     </BrowserRouter>

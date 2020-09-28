@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useCallback, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FiBook } from 'react-icons/fi';
 import { ReactComponent as ReactLogo } from '../../assets/logo.svg';
@@ -11,6 +11,17 @@ interface YoutubeTypes {
 }
 
 const Dashboard: React.FC = () => {
+  const [label, setLabel] = useState<string>('Cadastrar-se');
+  const handleSend = useCallback(() => {
+    setLabel('Carregando');
+    setTimeout(() => {
+      setLabel('Cadastrado');
+      setTimeout(() => {
+        setLabel('Cadastrar-se');
+      }, 1000);
+    }, 2000);
+  }, []);
+
   return (
     <Container>
       <LogoContainer>
@@ -22,7 +33,9 @@ const Dashboard: React.FC = () => {
         <strong>Cadastre-se e receba noticias sobre nosso evento. </strong>
         <div>
           <input type="text" placeholder="Seu Email" />
-          <button type="button">Cadastrar-se</button>
+          <button type="button" onClick={handleSend}>
+            {label}
+          </button>
         </div>
         <Link to="/dashboard">
           <button type="button">
