@@ -31,9 +31,7 @@ interface YoutubeTypes {
 
 const Dashboard: React.FC = () => {
   const player = useRef<ReactPlayer>(null);
-  const [videoFilePath, setVideoFileURL] = useState<string>(
-    'https://youtu.be/oDgaV5uxVT4',
-  );
+  const [videoFilePath, setVideoFileURL] = useState<string>(Chapters[0].path);
 
   const history = useHistory();
 
